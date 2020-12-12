@@ -19,9 +19,9 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    BotName: 'ARIS BOT NEW',
-    instagram: 'https://instagram.com/_sadboy.ig',
-    whatsapp: 'wa.me/6285722553839',
+    BotName: 'UW-BC BOT',
+    instagram: 'https://instagram.com/Uwiw_Bocah',
+    whatsapp: 'wa.me/6285813655726',
     kapanbotaktif: '24 JAM',
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
@@ -120,7 +120,7 @@ client.connect();
 
 client.on('message-status-update', json => {
    const participant = json.participant ? ' (' + json.participant + ')' : ''
-   console.log(`[ ${time} ] => bot by ig:@aditiaalfians`)
+   console.log(`[ ${time} ] => bot by ig:@Uwiw_Bocah`)
 })
 
 client.on('message-new', async (m) => {
